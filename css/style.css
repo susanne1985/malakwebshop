@@ -105,11 +105,4 @@ p {
     font-size: 14px;
 }
 
-.shoping-cart {
-    display: inline-block;
-    background: url(cart.png
-) no-repeat 0 0;
-    width: 27px;
-    height: 27px;
-    margin: 0 10px 0 0;
-}
+
