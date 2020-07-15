@@ -1,57 +1,31 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
+
+body {
+    font-family: 'Sora',
+        sans-serif;
+    background-color: #E8ADAA;
+    color: black;
 }
 
-
-
-
-header {
-    width: 100%;
-    height: auto;
-
+.navbar-toggler {
+    outline: none !important;
 }
 
-
-.header_wrapper {
-    width: 100%;
-    height: 160px;
-    margin: 0 auto;
-
+.toggeler-icon {
+    font-size: 2rem;
+    color: rgb(19, 18, 18);
 }
 
-.logo_icon_wrapper {
-    width: 95%;
-    height: 60%;
+.nav-link {
+    color: black;
+    transition: all 1s ease-in-out;
+    font-weight: bold;
+    font-size: larger;
 }
 
-.icon {
-    float: right;
+.nav-link:hover {
+    color: white;
 }
-
-.navigation ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 30px;
-    text-align: center;
-    line-height: 80px;
-}
-
-.navigation ul li a {
-    float: left;
-}
-
-.wrapper {
-    width: 700px;
-    margin: 20px auto;
-    padding: 20px;
-}
-
-.clear {
-    clear: both;
-}
-
 .items {
     display: block;
     margin: 20px 0;
