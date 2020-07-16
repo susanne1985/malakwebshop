@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
 
+
 body {
     font-family: 'Sora',
         sans-serif;
     background-color: #E8ADAA;
     color: black;
+}
+
+
+
+.navbar-brand:hover {
+    background-color: fuchsia;
 }
 
 .navbar-toggler {
@@ -13,7 +20,7 @@ body {
 
 .toggeler-icon {
     font-size: 2rem;
-    color: rgb(19, 18, 18);
+    color: black;
 }
 
 .nav-link {
@@ -24,13 +31,74 @@ body {
 }
 
 .nav-link:hover {
-    color: white;
-}
-.items {
-    display: block;
-    margin: 20px 0;
+    color: fuchsia;
+    cursor: pointer;
 }
 
+.nav-link {
+    color: black;
+}
+
+.nb-0 {
+    font-weight: bold;
+}
+
+.nb-0:hover {
+    color: red;
+}
+
+.fa-shopping-cart {
+    color: black;
+}
+
+.fa-shopping-cart:hover {
+    color: palevioletred;
+}
+
+.fa-heart:hover {
+    color: red;
+
+}
+
+.fa-phone:hover {
+    color: red
+}
+
+.max-height {
+    min-height: calc(100vh - 50px);
+
+    background: url(../image/hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.75;
+
+}
+
+.ml9 {
+    position: relative;
+    font-weight: bolder;
+    font-size: 3.5em;
+}
+
+.ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+    color: black;
+
+}
 .item {
     float: left;
     background-color: white;
