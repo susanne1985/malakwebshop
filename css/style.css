@@ -1,150 +1,129 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
 
 
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap");
+
 body {
-    font-family: 'Sora',
-        sans-serif;
-    background-color: #E8ADAA;
-    color: black;
+  font-family: "Sora", sans-serif;
+  background-color: #e8adaa;
+  color: black;
 }
 
-
-
 .navbar-brand:hover {
-    background-color: fuchsia;
+  background-color: fuchsia;
 }
 
 .navbar-toggler {
-    outline: none !important;
+  outline: none !important;
 }
 
 .toggeler-icon {
-    font-size: 2rem;
-    color: black;
+  font-size: 2rem;
+  color: black;
 }
 
 .nav-link {
-    color: black;
-    transition: all 1s ease-in-out;
-    font-weight: bold;
-    font-size: larger;
+  color: black;
+  transition: all 1s ease-in-out;
+  font-weight: bold;
+  font-size: larger;
 }
 
 .nav-link:hover {
-    color: fuchsia;
-    cursor: pointer;
+  color: fuchsia;
+  cursor: pointer;
 }
 
 .nav-link {
-    color: black;
+  color: black;
 }
 
 .nb-0 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .nb-0:hover {
-    color: red;
+  color: red;
 }
 
 .fa-shopping-cart {
-    color: black;
+  color: black;
 }
 
 .fa-shopping-cart:hover {
-    color: palevioletred;
+  color: palevioletred;
 }
 
 .fa-heart:hover {
-    color: red;
-
+  color: red;
 }
 
 .fa-phone:hover {
-    color: red
+  color: red;
 }
 
 .max-height {
-    min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 50px);
 
-    background: url(../image/hero_2.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    position: relative;
-    opacity: 0.75;
-
+  background: url(../image/hero_2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  opacity: 0.75;
 }
 
 .ml9 {
-    position: relative;
-    font-weight: bolder;
-    font-size: 3.5em;
+  position: relative;
+  font-weight: bolder;
+  font-size: 3.5em;
 }
 
 .ml9 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
 }
 
 .ml9 .letter {
-    transform-origin: 50% 100%;
-    display: inline-block;
-    line-height: 1em;
-    color: black;
-
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+  color: black;
 }
-.item {
-    float: left;
-    background-color: white;
-    margin: 0 10px 10px 0;
-    width: 305px;
-    padding: 10px;
+.single-item {
+  transition: all 0.3 linear;
 }
-
-.item img {
-    display: block;
-    margin: auto;
+.single-item:hover {
+  box-shadow: 0 10px 15px black;
 }
-
-h2 {
-    font-size: 12px;
-    display: block;
-    border: 1px solid rgb(112, 102, 102);
-    margin: 0 0 10px 0;
-    padding: 0 0 5px 0;
+.img-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
-
-button {
-    border: 1px solid #ef4478;
-    padding: 4px 14px;
-    background-color: #ef4478;
-    color: white;
-    text-transform: uppercase;
-    flex: right;
-    margin: 5px 0;
-    font-weight: 400px;
-    cursor: pointer;
-    font-family: tahoma;
-    border-radius: 50px;
-
+.store-img {
+  transition: all 1s linear ease-in-out;
 }
-
-button:focus {
-    outline: none;
+.img-container:hover .store-img {
+  transform: scale(1.2);
 }
-
-span {
-    float: right;
+.store-item-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.75rem;
+  background: gold;
+  border-top-left-radius: 1rem;
+  transition: all 1s ease-in-out;
+  transform: translate(100%, 100%);
 }
-
-p {
-    font-size: 14px;
+.img-container:hover .store-item-icon {
+  transform: translate(0, 0);
 }
-
 
