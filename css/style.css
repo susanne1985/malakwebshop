@@ -357,4 +357,39 @@ nav.sticky {
   display: inline-block;
   line-height: 1em;
 }
+.footer {
+  background-color: #FF00AA;
+}
+
+.number {
+  color: white;
+}
+
+.copy {
+  font-size: 1rem;
+  color: white;
+  font-weight: 900;
+
+}
+
+.insta {
+
+  font-size: 1.5rem;
+}
+
+.w-60 {
+  height: 500px;
+}
+
+
+.carousel {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
+
+}
+
+.shipping {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
+}
 
