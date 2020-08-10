@@ -16,11 +16,11 @@ body {
 
 .toggler-icon {
   font-size: 2.5rem;
-  color: var(--mainPink);
+
 }
 
 .nav-link {
-  color: var(--mainPink);
+
   font-size: 1.5rem;
   transition: all 0.5s ease-in-out;
 }
@@ -43,17 +43,10 @@ body {
   cursor: pointer;
 }
 
-.cart-info:hover {
-  background: var(--mainPink);
-  border-color: var(--mainPink);
-  color: var(--mainWhite);
-}
 
-.cart-info:hover .cart-info__icon {
-  color: var(--mainWhite);
-}
 
-/* end of info icons */
+
+
 /* banner */
 .max-height {
   min-height: calc(100vh - 76px);
@@ -76,23 +69,14 @@ body {
   font-size: 4rem;
 }
 
-.banner-link {
-  font-size: 1.5rem;
-  color: var(--mainBlack);
-  border: 0.2rem solid var(--mainBlack);
-}
 
-.banner-link:hover {
-  background: var(--mainBlack);
-  color: var(--mainPink);
-}
 
-/* end of banner */
+
 /* cart */
 .cart {
   position: absolute;
   min-height: 10rem;
-  background: var(--mainWhite);
+
   top: 0;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
@@ -106,10 +90,9 @@ body {
   transition: all 2s ease-in-out;
 }
 
-/* end of cart */
-/* cart item */
+
 .cart-item-remove {
-  color: Pink !important;
+  
   transition: all 1s ease-in-out;
 }
 
@@ -128,10 +111,6 @@ body {
   border-color: Black ;
 }
 
-.btn-black:hover {
-  color:Pink !important;
-  background: Black !important;
-}
 
 .btn-pink:hover {
   background: pink !important;
@@ -155,8 +134,7 @@ body {
 
 
 
-/* end of about */
-/* store items */
+
 
 
 .img-container {
@@ -188,7 +166,7 @@ body {
 }
 
 .store-item-icon:hover {
-  color: var(--mainWhite);
+  color: white;
 }
 
 .store-item-value {
@@ -314,23 +292,13 @@ nav.sticky {
   line-height: 50px;
 }
 
-/* Banner */
-.max-height {
-  min-height: 100vh;
-}
 
 
 
 
-#myLink {
-  grid-area: myLink;
-  margin: auto;
-  align-items: center;
-}
 
-#myLink>a {
-  font-size: 1.6em;
-}
+
+
 
 
 
@@ -390,38 +358,3 @@ nav.sticky {
   line-height: 1em;
 }
 
-.footer {
-  background-color: #FF00AA;
-}
-
-.number {
-  color: white;
-}
-
-.copy {
-  font-size: 1rem;
-  color: white;
-  font-weight: 900;
-
-}
-
-.insta {
-
-  font-size: 1.5rem;
-}
-
-.w-60 {
-  height: 500px;
-}
-
-
-.carousel {
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
-
-}
-
-.shipping {
-  background-color: #000000;
-  background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
-}
