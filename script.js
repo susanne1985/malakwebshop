@@ -44,7 +44,7 @@ class UI {
       <i class="fas fa-trash"></i>
     </a>
     `;
-    // Select cart
+    
     this.cart.insertBefore(cartItem, this.total);
     this.confirm.classList.add('show-confirmation');
     setTimeout(() => {
@@ -58,7 +58,7 @@ class UI {
     showTotals();
   }
   removeFromCart(entry) {
-    //let id = parseInt(entry.id);
+  
     this.cart.removeChild(entry);
     showTotals();
   }
@@ -101,7 +101,7 @@ function eventListeners() {
 
   const ui = new UI();
 
-  /* Clicking on the store filter buttons */
+
   filterBtn.forEach((btn) => {
     btn.addEventListener('click', (event) => {
       ui.filterStore(event.target.dataset.filter);
