@@ -881,9 +881,9 @@
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+   
     <script src="js/script.js"></script>
-    <script src="js/script1.js"></script>
+   
     <!-- end of scripts -->
   </body>
 </html>
